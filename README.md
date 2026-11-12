@@ -24,11 +24,7 @@ SSA22, AzTEC-3, HDF850.1, …).
 
 ## Requirements
 
-Python ≥ 3.8 and:
-
-```bash
-pip install -r requirements.txt
-```
+Python ≥ 3.8, astropy, hdf5, etc.
 
 `tSZ-maps.ipynb` also needs `pymsz`, installed from its repository:
 
@@ -36,8 +32,7 @@ pip install -r requirements.txt
 pip install git+https://github.com/weiguangcui/pymsz.git
 ```
 
-The notebooks import a plotting-style helper, `set_style` (`set_style('mnras')`), which is not included here.
-Either add your own `set_style.py` next to the notebooks or remove those calls.
+The notebooks import a plotting-style helper, `set_style`, which is included here.
 
 ## Data
 
