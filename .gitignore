@@ -1,0 +1,18 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Data and outputs (not distributed)
+*.hdf5
+*.h5
+*.fits
+plots/
+tsz-map/
+obs/
+volume_vs_mass.pdf
+*.png
+
+# OS
+.DS_Store
+
